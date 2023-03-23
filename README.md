@@ -2,6 +2,8 @@
 
 ```cmd
 
+mklink /d "C:\Program Files\Microsoft Visual Studio" "D:\VisualStudio\Program Files\Microsoft Visual Studio"
+
 mklink /d "C:\Program Files (x86)\Microsoft Visual Studio" "D:\VisualStudio\Program Files (x86)\Microsoft Visual Studio"
 
 mklink /d "C:\Program Files (x86)\Microsoft SDKs" "D:\VisualStudio\Program Files (x86)\Microsoft SDKs" 
