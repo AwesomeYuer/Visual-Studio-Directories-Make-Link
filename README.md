@@ -1,4 +1,6 @@
-# Visual Studio Change Directories
+# Link
+
+## Visual Studio Change Directories
 
 ```cmd
 
@@ -18,6 +20,11 @@ mklink /d "C:\Program Files\Android" "D:\Android\Program Files (x86)\Android"
 
 ```
 
+## Windows UserSecrets
 ```
 mklink /d "C:\Users\<your user name>\AppData\Roaming\Microsoft\UserSecrets" "D:\UserSecrets"
+```
+## WSL UserSecrets
+```
+ln -s /mnt/d/UserSecrets /home/<your user name>/.microsoft/usersecrets
 ```
