@@ -22,11 +22,11 @@ mklink /d "C:\Program Files\Android" "D:\Android\Program Files (x86)\Android"
 
 ## Windows UserSecrets
 ```
-# link to, link from
+# args: link to, link from
 mklink /d "C:\Users\<your user name>\AppData\Roaming\Microsoft\UserSecrets" "D:\UserSecrets"
 ```
 ## WSL UserSecrets
 ```
-# link from, link to
+# args: link from, link to
 ln -s /mnt/d/UserSecrets /home/<your user name>/.microsoft/usersecrets
 ```
