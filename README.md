@@ -17,3 +17,7 @@ mklink /d "C:\Program Files (x86)\Android" "D:\Android\Program Files (x86)\Andro
 mklink /d "C:\Program Files\Android" "D:\Android\Program Files (x86)\Android"
 
 ```
+
+```
+mklink /d "C:\Users\xiyueyu\AppData\Roaming\Microsoft\UserSecrets" "D:\UserSecrets"
+```
